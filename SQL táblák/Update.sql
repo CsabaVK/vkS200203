@@ -28,7 +28,7 @@ Create table S_IKKEK(
  near double (8,2) not null,
  afa  tinyint(100)not null,
  keszlet double(8,2) not null,
- mennymegy varchar (6) not null,
+ mennymegy varchar (6) not null
 );
 
 Create table S_RENDELES_TETEL(
