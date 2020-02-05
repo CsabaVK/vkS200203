@@ -23,8 +23,9 @@ f_id int auto_increment primary key,
 nev varchar(10) not null
 );
 
-Create table S_IKKEK(
+Create table s_cikkek(
  c_id int auto_increment primary key,
+ nev varchar (40) not null,
  near double (8,2) not null,
  afa  tinyint(100)not null,
  keszlet double(8,2) not null,
