@@ -1,4 +1,4 @@
-INSERT INTO `s_cikkek` (nev, near, afa, keszlet, mennymegy) VALUES
+INSERT INTO `S_CIKKEK` (nev, near, afa, keszlet, mennymegy) VALUES
 ('alma', '569', '27', '152.65', 'kg'),
 ('tej', '179', '27', '521', 'doboz'),
 ('tévé', '162871', '27', '4', 'darab'),
