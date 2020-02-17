@@ -1,0 +1,18 @@
+--
+--RENAME
+--RENAME TABLE `Termekek`.`S_CIKKEK`TO `Termekek`.`S_CIKKEk`;
+--
+
+SELECT * FROM S_CIKKEK
+
+SELECT DISTINCT mennymegy FROM S_CIKKEK
+
+SELECT nev AS "Termeknév", near as "Nettó egységár" FROM S_CIKKEK
+
+SELECT COUNT(nev) AS "Termékdarab" FROM S_CIKKEK
+SELECT SUM(keszlet) AS "Összkészlet" FROM S_CIKKEK
+SELECT AVG(near) AS "Átlagár" FROM S_CIKKEK
+
+SELECT 1,05 * near FROM S_CIKKEK
+
+SELECT LEFT(nev, 3) FROM S_CIKKEK
