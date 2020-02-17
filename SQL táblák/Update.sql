@@ -23,7 +23,7 @@ f_id int auto_increment primary key,
 nev varchar(10) not null
 );
 
-Create table s_cikkek(
+Create table S_CIKKEK(
  c_id int auto_increment primary key,
  nev varchar (40) not null,
  near double (8,2) not null,
